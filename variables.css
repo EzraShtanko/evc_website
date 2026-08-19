@@ -1,0 +1,10 @@
+:root {
+  --socials-icon-size-land    : 4em;
+  --socials-icon-size-port    : 3em;
+  --socials-margin-land       : 0.2em;
+  --socials-top-margin-land   : 0.5em;
+  --socials-base-opacity      : 0.8;
+
+  --corner-section-top-land   : 2em;
+  --corner-section-left-land  : 2em;
+}
