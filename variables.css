@@ -6,11 +6,14 @@
   --socials-icon-size-port    : 3em;
   --socials-margin-land       : 0.2em;
   --socials-top-margin-land   : 0.5em;
-  --socials-base-opacity      : 0.8;
+  --socials-base-opacity      : 1.0;
 
   --corner-section-top-land   : 2em;
   --corner-section-left-land  : 2em;
 
   --media-dashboard-sep-space : 0.5em;
+
+  --footer-height             : 10em;
+  --footer-margin-top         : 5em;
 
 }

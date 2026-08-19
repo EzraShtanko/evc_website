@@ -28,7 +28,8 @@ body {
 
 header {
   z-index                 : 128;
-  background-color        : black;
+  /* background-color        : black; */
+  background              : linear-gradient(black, transparent);
   position                : fixed;
   text-align              : center;
   width                   : 100%;
@@ -115,7 +116,8 @@ header a {
   background-size     : contain;
   background-repeat   : no-repeat;
 
-  height    : 140em;
+  /* height    : min(110vh, 100vw); */
+  height    : 120vw;
   width     : 100%;
 }
 
@@ -149,7 +151,9 @@ header a {
 
 
 main {
-  /* z-index       : 8; */
+  position      : relative;
+  z-index       : 8;
+  /* order         : 4; */
   font-family   : "Nanum Pen Script", cursive;
   font-weight   : 400;
   font-style    : normal;
@@ -205,4 +209,8 @@ main h2 {
   font-family         : -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
 }
 
-
+footer {
+  background-color    : gold;
+  height              : var(--footer-height);
+  margin-top          : var(--footer-margin-top);
+}
