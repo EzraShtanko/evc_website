@@ -1,5 +1,8 @@
 :root {
-  --socials-icon-size-land    : 4em;
+
+  --header-height             : 5.5em;
+
+  --socials-icon-size-land    : 3em;
   --socials-icon-size-port    : 3em;
   --socials-margin-land       : 0.2em;
   --socials-top-margin-land   : 0.5em;
@@ -7,4 +10,7 @@
 
   --corner-section-top-land   : 2em;
   --corner-section-left-land  : 2em;
+
+  --media-dashboard-sep-space : 0.5em;
+
 }
