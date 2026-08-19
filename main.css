@@ -122,10 +122,15 @@ header a {
 .corner-section {
   z-index       : 128;
   position      : absolute;
-  top           : var(--corner-section-top-land);
-  left          : var(--corner-section-left-land);
+  /* top           : var(--corner-section-top-land); */
+  /* left          : var(--corner-section-left-land); */
+  top           : 0;
+  left          : 0;
+  padding-top           : var(--corner-section-top-land);
+  padding-left          : var(--corner-section-left-land);
 
-  width         : 15em;
+  width         : 20%;
+  max-width     : 15em;
 
   display                 : grid;
   grid-template-columns   : 1fr 1fr;
@@ -144,16 +149,17 @@ header a {
 
 
 main {
-  font-family: "Nanum Pen Script", cursive;
-  font-weight: 400;
-  font-style: normal;
+  /* z-index       : 8; */
+  font-family   : "Nanum Pen Script", cursive;
+  font-weight   : 400;
+  font-style    : normal;
 
   font-size   : 2em;
   text-align  : justify;
 
   display     : block;
   color       : gold;
-  margin      : 74% auto 0 auto;
+  margin      : 80% auto 0 auto;
   max-width   : 30em;
 }
 
