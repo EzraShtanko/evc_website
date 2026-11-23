@@ -162,7 +162,8 @@ main {
   text-align  : justify;
 
   display     : block;
-  color       : gold;
+  /* color       : gold; */
+  color       : #bbb;
   margin      : 80% auto 0 auto;
   max-width   : 30em;
 }
